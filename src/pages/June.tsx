@@ -11,7 +11,7 @@ export default function June() {
       <div className="max-w-7xl mx-auto w-full">
         <MonthSwitcher />
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 border-2 border-move-blue overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-12 border-2 border-move-blue overflow-hidden mt-4">
           {/* Left Vertical Accent */}
           <div className="hidden lg:flex lg:col-span-1 bg-move-blue flex-col justify-between items-center py-10 border-r-2 border-black">
             <span className="text-white font-black text-sm md:text-xl vertical-text rotate-180 uppercase tracking-[0.2em]">
@@ -32,7 +32,7 @@ export default function June() {
             />
 
             <div className="relative h-full flex flex-col justify-end p-4 md:p-12 z-10 bg-gradient-to-t from-black/80 to-transparent">
-              <h1 className="text-[18vw] sm:text-[14vw] md:text-[10vw] font-black text-white uppercase leading-none tracking-tighter italic">
+              <h1 className="text-[16vw] sm:text-[13vw] md:text-[10vw] font-black text-white uppercase leading-none tracking-tighter italic">
                 JUNHO
               </h1>
 
@@ -44,7 +44,7 @@ export default function June() {
                 </div>
 
                 <div className="border-4 border-white bg-black/40 backdrop-blur-md px-5 py-2 md:px-8 md:py-3">
-                  <span className="text-white font-black uppercase tracking-[0.15em] md:tracking-[0.2em] text-sm md:text-lg">
+                  <span className="text-white font-black uppercase tracking-[0.12em] md:tracking-[0.2em] text-sm md:text-lg">
                     SÃO PAULO - BR
                   </span>
                 </div>
