@@ -13,7 +13,7 @@ export default function June() {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 border-2 border-move-blue overflow-hidden">
           {/* Left Vertical Accent */}
-          <div className="lg:col-span-1 bg-move-blue flex flex-col justify-between items-center py-6 md:py-10 border-r-2 border-black">
+          <div className="hidden lg:flex lg:col-span-1 bg-move-blue flex-col justify-between items-center py-10 border-r-2 border-black">
             <span className="text-white font-black text-sm md:text-xl vertical-text rotate-180 uppercase tracking-[0.2em]">
               DINAMUS • ALPHAVILLE
             </span>
