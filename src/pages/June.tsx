@@ -18,7 +18,7 @@ export default function June() {
           {/* Left Vertical Accent */}
           <div className="lg:col-span-1 bg-move-blue flex flex-col justify-between items-center py-10 border-r-2 border-black">
             <span className="text-white font-black text-xl vertical-text rotate-180 uppercase tracking-[0.25em]">
-              DINAMUS ALPHAVILLE
+              DINAMUS • ALPHAVILLE
             </span>
             <div className="w-12 h-12 bg-white flex items-center justify-center neo-brutalist-shadow">
               <Bolt className="text-move-blue font-bold" size={32} />
