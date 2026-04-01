@@ -1,3 +1,4 @@
+import HomePage from './pages/Home';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import Sidebar from './components/Sidebar';
@@ -23,7 +24,7 @@ function AppContent() {
         <main className="flex-1 pb-20 lg:pb-0">
           <AnimatePresence mode="wait">
             <Routes location={location}>
-              <Route path="/" element={<June />} />
+              <Route path="/" element={<HomePage />} />
               <Route path="/june" element={<June />} />
               <Route path="/april" element={<April />} />
               <Route path="/may" element={<May />} />
