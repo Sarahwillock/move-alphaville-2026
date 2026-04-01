@@ -5,14 +5,14 @@ const leaders = [
   {
     name: 'Hugo',
     role: 'Líder da Casa',
-    image: 'IMG_3631.jpg', // Using the provided filename
+    image: '/hugo.jpg', // 🔥 coloque a imagem dele no public
     bio: 'Líder visionário focado em despertar o propósito em cada jovem.',
     instagram: 'https://www.instagram.com/move.alphaville/'
   },
   {
     name: 'Guilherme e Bia',
     role: 'Líderes',
-    image: 'WhatsApp Image 2026-04-01 at 14.36.16.jpeg', // Using the provided filename
+    image: '/lideres.jpeg', // ✅ SUA IMAGEM AQUI
     bio: 'Dedicados a construir conexões reais e profundas através dos GCs.',
     instagram: 'https://www.instagram.com/move.alphaville/'
   }
@@ -21,11 +21,14 @@ const leaders = [
 export default function Leaders() {
   return (
     <div className="relative min-h-screen bg-neutral-950 text-white overflow-hidden">
-      {/* Decorative background */}
+      
+      {/* Background */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-move-blue/10 blur-[120px] -z-10" />
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-move-pink/10 blur-[120px] -z-10" />
 
       <div className="relative z-10 p-6 md:p-12 lg:p-20 max-w-7xl mx-auto">
+
+        {/* HEADER */}
         <header className="mb-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -43,6 +46,7 @@ export default function Leaders() {
           </motion.div>
         </header>
 
+        {/* CARDS */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
           {leaders.map((leader, index) => (
             <motion.div
@@ -54,21 +58,27 @@ export default function Leaders() {
               className="group"
             >
               <div className="relative aspect-[4/5] overflow-hidden border-2 border-move-blue/30 group-hover:border-move-blue transition-all duration-500">
+                
+                {/* 🔥 IMAGEM */}
                 <img
                   src={leader.image}
                   alt={leader.name}
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
-                  referrerPolicy="no-referrer"
+                  className="w-full h-full object-cover object-center transition-all duration-700 scale-105 group-hover:scale-100"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-transparent to-transparent opacity-80" />
+
+                {/* 🔥 OVERLAY MAIS BONITO */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
                 
+                {/* TEXTO */}
                 <div className="absolute bottom-0 left-0 p-8 w-full">
                   <span className="bg-move-pink text-white px-3 py-1 text-xs font-black uppercase tracking-widest mb-4 inline-block">
                     {leader.role}
                   </span>
+
                   <h2 className="text-4xl md:text-5xl font-black uppercase italic tracking-tighter mb-2">
                     {leader.name}
                   </h2>
+
                   <p className="text-gray-300 text-sm max-w-md mb-6 font-medium">
                     {leader.bio}
                   </p>
@@ -82,25 +92,31 @@ export default function Leaders() {
                     >
                       <Instagram size={18} />
                     </a>
+
                     <div className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-move-pink hover:border-move-pink transition-all cursor-pointer">
                       <Mail size={18} />
                     </div>
                   </div>
                 </div>
+
               </div>
             </motion.div>
           ))}
         </div>
 
+        {/* LOCAL */}
         <section className="mt-32 glass-card p-12 border-move-blue relative overflow-hidden">
           <div className="absolute top-0 right-0 p-4 opacity-10">
             <MapPin size={120} className="text-move-blue" />
           </div>
+
           <div className="relative z-10">
             <h3 className="text-3xl font-black uppercase mb-6">ONDE NOS ENCONTRAR?</h3>
+
             <p className="text-gray-400 max-w-xl mb-8 font-bold tracking-wide">
               Estamos todos os sábados e quintas nos GCs e eventos mensais no prédio da Igreja Dinamus Alphaville.
             </p>
+
             <a 
               href="https://www.google.com/maps/place/Igreja+Dinamus+Alphaville/"
               target="_blank"
@@ -111,6 +127,7 @@ export default function Leaders() {
             </a>
           </div>
         </section>
+
       </div>
     </div>
   );
