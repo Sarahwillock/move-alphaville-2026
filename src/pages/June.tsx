@@ -137,11 +137,11 @@ export default function June() {
 
             <div>
               <h4 className="text-3xl font-black uppercase mb-3">
-                ACESSO VIP
+                ACESSO
               </h4>
 
               <p className="text-sm font-bold uppercase">
-                DOWNLOAD DO MOVE APP PARA ACESSO EXCLUSIVO AOS WORKSHOPS.
+                LOGO MAIS TEMOS NOVIDADES.
               </p>
             </div>
           </div>
