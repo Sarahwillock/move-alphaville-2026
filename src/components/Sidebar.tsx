@@ -3,7 +3,7 @@ import { Calendar, Mic2, Ticket, MapPin, LayoutGrid, Home } from 'lucide-react';
 import { cn } from '@/src/lib/utils';
 
 const navItems = [
-  { name: 'Início', path: '/schedules', icon: Home },
+  { name: 'Início', path: '/', icon: Home },
   { name: 'Agenda', path: '/full-schedule', icon: Calendar },
   { name: 'EVENTOS MOVE', path: '/', icon: LayoutGrid },
   { name: 'Líderes da Casa', path: '/leaders', icon: Mic2 },
