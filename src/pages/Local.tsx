@@ -48,7 +48,7 @@ export default function Local() {
               </div>
 
               <a
-                href="https://www.google.com/maps/place/Igreja+Dinamus+Alphaville/"
+                href="https://maps.app.goo.gl/i3fVsntiQtYuizbc8"
                 target="_blank"
                 className="mt-10 bg-move-blue px-8 py-4 font-black uppercase hover:bg-move-pink transition"
               >
@@ -59,7 +59,7 @@ export default function Local() {
             {/* MAPA */}
             <div className="min-h-[350px] bg-neutral-900">
               <iframe
-                src="https://www.google.com/maps?q=Igreja%20Dinamus%20Alphaville&output=embed"
+                src="https://maps.app.goo.gl/i3fVsntiQtYuizbc8"
                 className="w-full h-full min-h-[350px]"
               />
             </div>
