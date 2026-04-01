@@ -74,7 +74,7 @@ export default function June() {
 
                 <div className="flex justify-between items-end">
                   <a 
-                    href="https://www.google.com/maps/place/Igreja+Dinamus+Alphaville"
+                    href="https://maps.app.goo.gl/i3fVsntiQtYuizbc8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`${event.color === 'white' ? 'text-black border-move-blue' : 'text-white border-white'} font-bold uppercase text-sm border-l-4 pl-4`}
@@ -109,7 +109,7 @@ export default function June() {
             />
 
             <a 
-              href="https://www.google.com/maps/place/Igreja+Dinamus+Alphaville"
+              href="https://maps.app.goo.gl/i3fVsntiQtYuizbc8"
               target="_blank"
               rel="noopener noreferrer"
               className="relative h-full p-8 flex flex-col justify-between"
@@ -124,7 +124,7 @@ export default function June() {
                 </h3>
 
                 <p className="text-white text-sm mt-3 bg-black/60 px-2">
-                  Alameda Mamoré, 521 - Alphaville, Barueri - SP
+                  Estrada Bela Vista, 2914 - Alphaville, Santana de Parnaíba - SP
                 </p>
               </div>
             </a>
