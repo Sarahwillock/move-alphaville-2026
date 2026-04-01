@@ -5,7 +5,7 @@ import { cn } from '@/src/lib/utils';
 const navItems = [
   { name: 'Início', path: '/', icon: Home },
   { name: 'Agenda', path: '/full-schedule', icon: Calendar },
-  { name: 'EVENTOS MOVE', path: '/April', icon: LayoutGrid },
+  { name: 'EVENTOS MOVE', path: '/june', icon: LayoutGrid },
   { name: 'Líderes da Casa', path: '/leaders', icon: Mic2 },
   { name: 'GCs', path: '/gcs', icon: Ticket },
   { name: 'Local', path: '/local', icon: MapPin },
