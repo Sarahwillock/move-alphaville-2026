@@ -44,15 +44,6 @@ export default function June() {
               </div>
             </div>
 
-            {/* Bauhaus Grid */}
-            <div className="absolute top-0 right-0 w-40 h-40 grid grid-cols-4 grid-rows-4 gap-1 p-2 bg-black/20">
-              <div className="bg-move-blue" /><div className="bg-move-pink" /><div className="bg-white" /><div className="bg-move-orange" />
-              <div className="bg-white" /><div className="bg-move-blue" /><div className="bg-move-orange" /><div className="bg-move-pink" />
-              <div className="bg-move-orange" /><div className="bg-white" /><div className="bg-move-pink" /><div className="bg-move-blue" />
-              <div className="bg-move-pink" /><div className="bg-move-orange" /><div className="bg-move-blue" /><div className="bg-white" />
-            </div>
-          </div>
-
           {/* Right Detail Column */}
           <div className="lg:col-span-3 flex flex-col border-l-2 border-black">
             {juneEvents.map((event) => (
