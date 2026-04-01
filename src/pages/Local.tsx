@@ -30,7 +30,7 @@ export default function Local() {
                   <div>
                     <div className="text-sm text-white/50 uppercase font-bold">Endereço</div>
                     <div className="text-xl font-bold">
-                      Alameda Mamoré, 521 - Alphaville, Barueri - SP
+                     Estrada Bela Vista, 2914 - Alphaville, Santana de Parnaíba - SP, 06472-005
                     </div>
                   </div>
                 </div>
