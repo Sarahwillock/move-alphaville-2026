@@ -8,7 +8,7 @@ const navItems = [
   { name: 'EVENTOS MOVE', path: '/', icon: LayoutGrid },
   { name: 'Líderes da Casa', path: '/leaders', icon: Mic2 },
   { name: 'GCs', path: '/gcs', icon: Ticket },
-  { name: 'Local', path: '/venue', icon: MapPin },
+  { name: 'Local', path: '/local', icon: MapPin },
 ];
 
 export default function Sidebar() {
@@ -48,13 +48,6 @@ export default function Sidebar() {
           );
         })}
       </nav>
-      <div className="p-6 bg-black">
-        <div className="text-[10px] text-white/40 mb-2">SPONSORED BY</div>
-        <div className="flex gap-2">
-          <div className="w-8 h-8 bg-move-blue opacity-50"></div>
-          <div className="w-8 h-8 bg-move-pink opacity-50"></div>
-        </div>
-      </div>
     </aside>
   );
 }
