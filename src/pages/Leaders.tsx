@@ -5,7 +5,7 @@ const leaders = [
   {
     name: 'Hugo',
     role: 'Líder da Casa',
-    image: '/hugo.jpg', // 🔥 coloque a imagem dele no public
+    image: '/lider1.jpg', // 🔥 coloque a imagem dele no public
     bio: 'Líder visionário focado em despertar o propósito em cada jovem.',
     instagram: 'https://www.instagram.com/move.alphaville/'
   },
