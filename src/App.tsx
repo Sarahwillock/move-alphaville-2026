@@ -17,7 +17,7 @@ function AppContent() {
   const location = useLocation();
 
   return (
-    <div className="flex min-h-screen bg-move-dark">
+    <div className="flex min-h-screen bg-move-dark w-full overflow-x-hidden">
       <Sidebar />
       <div className="flex-1 lg:ml-64 flex flex-col">
         <Navbar />
