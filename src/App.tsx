@@ -10,6 +10,7 @@ import FullSchedule from './pages/FullSchedule';
 import Leaders from './pages/Leaders';
 import { Home, Calendar, LayoutGrid, User, Users } from 'lucide-react';
 import { saveToCalendar } from './lib/calendar';
+import Local from './pages/Local';
 
 function AppContent() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function AppContent() {
               <Route path="/june" element={<June />} />
               <Route path="/april" element={<April />} />
               <Route path="/may" element={<May />} />
+              <Route path="/local" element={<Local />} />
               <Route 
                 path="/schedules" 
                 element={
