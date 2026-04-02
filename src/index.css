@@ -14,6 +14,11 @@
 }
 
 @layer base {
+  html, body, #root {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
   body {
     @apply bg-move-dark text-white font-sans antialiased;
   }
