@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+import { Link } from 'react-router-dom';
 
-# Run and deploy your AI Studio app
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-black text-white p-6 md:p-10">
+      <div className="max-w-6xl mx-auto pt-8">
+        <div className="border-2 border-move-blue bg-neutral-950 p-8 md:p-12">
+          <div className="inline-block bg-move-pink px-4 py-1 text-xs font-black uppercase tracking-widest mb-6">
+            MOVE ALPHAVILLE
+          </div>
 
-This contains everything you need to run your app locally.
+          <h1 className="text-4xl md:text-7xl font-black uppercase leading-none mb-6">
+            BEM-VINDO AO <br />
+            <span className="text-move-blue">MOVE 2026</span>
+          </h1>
 
-View your app in AI Studio: https://ai.studio/apps/f1ba9040-672e-4778-81c6-20f30c5c9803
+          <p className="text-white/80 text-lg md:text-xl max-w-3xl mb-10">
+            Aqui você encontra a agenda, os eventos MOVE, os líderes da casa, os GCs e o local dos encontros.
+          </p>
 
-## Run Locally
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <Link
+              to="/schedules"
+              className="bg-move-blue text-white px-6 py-5 font-black uppercase text-center hover:bg-move-pink transition"
+            >
+              Ver Início
+            </Link>
 
-**Prerequisites:**  Node.js
+            <Link
+              to="/full-schedule"
+              className="border-2 border-white text-white px-6 py-5 font-black uppercase text-center hover:bg-white hover:text-black transition"
+            >
+              Agenda
+            </Link>
 
+            <Link
+              to="/june"
+              className="border-2 border-move-blue text-white px-6 py-5 font-black uppercase text-center hover:bg-move-blue transition"
+            >
+              Eventos Move
+            </Link>
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+            <Link
+              to="/local"
+              className="border-2 border-move-pink text-white px-6 py-5 font-black uppercase text-center hover:bg-move-pink transition"
+            >
+              Local
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
