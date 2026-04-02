@@ -8,7 +8,7 @@ export default function GCs() {
       name: 'GC Lobby',
       leader: 'Hugo',
       schedule: 'Sábado (15 em 15 dias)',
-      time: '18:00',
+      time: '17:00',
       location: 'Alphaville',
       color: 'move-blue',
       event: {
